@@ -14,16 +14,54 @@
      limitations under the License.
  -->
 
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" msgid="5717136097222561957">"MusicFX"</string>
-    <string name="no_effects" msgid="5067916002004255814">"Effetti non disponibili."</string>
-    <string name="eq_dialog_title" msgid="2020244436368289652">"Equalizzatore"</string>
-    <string name="headset_plug" msgid="4505819850289423141">"Collega le cuffie per questi effetti."</string>
-    <string name="bass_boost_strength" msgid="882301530007752270">"Bassi più intensi"</string>
-    <string name="virtualizer_strength" msgid="106561253469770096">"Audio surround"</string>
-    <string name="setup" msgid="1103677904576339192">"Configurazione"</string>
-    <string name="ci_extreme" msgid="1736938429763948084">"FX booster"</string>
-    <string name="user" msgid="3949460956502898057">"Utente"</string>
-    <string name="picker_title" msgid="8464126693702817261">"Pann. controllo effetti music."</string>
+<resources>
+    <string name="app_name">MusicFX</string>
+
+    <!-- ControlPanelMusic strings -->
+    <string name="no_effects">Effetti non disponibili.</string>
+    <string name="main_toggle_effects_title">Effetti audio</string>
+    <string name="eq_dialog_title">Equalizzatore</string>
+    <string name="headset_plug">Collega le cuffie per questi effetti.</string>
+    <string name="combo_device">Effetti supportati solo sulla riproduzione delle cuffie.</string>
+    <string name="bass_boost_strength">Bassi più intensi</string>
+    <string name="virtualizer_strength">Audio surround</string>
+    <string name="pr_title">Riverbero</string>
+    <string name="pr_summary">Ulteriori effetti di riverbero</string>
+    <string name="pr_dialog_title">Preselezione del riverbero</string>
+    <string name="setup">Configurazione</string>
+
+    <string name="normal">Normale</string>
+    <string name="classical">Classica</string>
+    <string name="dance">Dance</string>
+    <string name="flat">Flat</string>
+    <string name="folk">Folk</string>
+    <string name="heavy_metal">Heavy Metal</string>
+    <string name="hip_hop">Hip Hop</string>
+    <string name="jazz">Jazz</string>
+    <string name="pop">Pop</string>
+    <string name="rock">Rock</string>
+    <string name="ci_extreme">Electronic</string>
+    <string name="user">Personalizzato</string>
+
+    <string name="none">Niente</string>
+    <string name="smallroom">Stanza piccola</string>
+    <string name="mediumroom">Stanza media</string>
+    <string name="largeroom">Stanza grande</string>
+    <string name="mediumhall">Sala media</string>
+    <string name="largehall">Sala grande</string>
+    <string name="plate">Platea</string>
+
+    <string name="eq_custom">Per personalizzare, selezionare "Personalizzato"</string>
+    <string name="power_on_prompt">Attivare l\'equalizzatore prima di tentare di configurare qualsiasi cosa</string>
+
+    <!-- title of control panel picker dialog [CHAR LIMIT=30] -->
+    <string name="picker_title">Pannello di controllo degli effetti musicali</string>
+    <string name="toggle_button_on">On</string>
+    <string name="toggle_button_off">Off</string>
+
+    <string name="drawer_item_speaker">Altoparlante</string>
+    <string name="drawer_item_headset">Cuffie</string>
+    <string name="drawer_item_bluetooth">Bluetooth</string>
+    <string name="drawer_open">Apri il drawer di navigazione</string>
+    <string name="drawer_close">Chiudi il drawer di navigazione</string>
 </resources>
