@@ -24,10 +24,10 @@
     <color name="drawer_header_color">@color/primaryColor</color> <!-- left drawer header background color-->
     <color name="drawer_background_color">@android:color/white</color> <!-- left drawer menu background color-->
     <color name="drawer_text_color">@color/textColor</color> <!-- left drawer menu txt color-->
-    <color name="drawer_menu_icon_checked_color">@color/accentColor</color> <!-- left drawer menu checked element icon color-->
-    <color name="drawer_menu_icon_normal_color">@color/textColor</color> <!-- left drawer menu element icon color-->
-    <color name="drawer_menu_text_checked_color">@color/accentColor</color> <!-- left drawer menu checked element txt color-->
-    <color name="drawer_menu_text_normal_color">@color/textColor</color> <!-- left drawer menu checked element txt color-->
+    <color name="drawer_menu_icon_checked_color">@color/accentColor</color> <!-- left drawer menu checked entry icon color-->
+    <color name="drawer_menu_icon_normal_color">@color/textColor</color> <!-- left drawer menu unchecked entries icon color-->
+    <color name="drawer_menu_text_checked_color">@color/accentColor</color> <!-- left drawer menu checked entry txt color-->
+    <color name="drawer_menu_text_normal_color">@color/textColor</color> <!-- left drawer menu unchecked entries txt color-->
     <color name="spinner_bg_color">@android:color/white</color> <!-- spinner box -->
     <color name="spinner_txt_area_color">@android:color/white</color> <!-- "Reverb" txt area plus a small part at right of the spinner box -->
     <color name="gallery_bg_color">@android:color/white</color> <!-- horizontal bar where you can scroll the eq presets (after the eq and before the knobs -->
@@ -45,4 +45,6 @@
     <color name="visualizer_highlight">#8b96dd</color> <!-- equalizer active level bar top element  -->
     <color name="visualizer_lowlight">@color/accentColor</color> <!-- equalizer active level bar elements -->
     <color name="visualizer_disabled">@color/disabled</color> <!-- equalizer level bar when musicfx is off -->
+
+    <!--For more specific text colors like the reverb spinner text change android:textColor in layout/music_main.xml (by default they are linked to @color/textColor-->
 </resources>
