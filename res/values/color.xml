@@ -48,4 +48,39 @@
     <color name="visualizer_disabled">@color/disabled</color> <!-- equalizer level bar when musicfx is off -->
 
     <!--For more specific text colors like the reverb spinner text change android:textColor in layout/music_main.xml (by default they are linked to @color/textColor-->
+
+    <!--
+    DARK THEME SAMPLE:
+    <color name="primaryColor">#ff212121</color>
+    <color name="primaryColorDark">#ff242424</color>
+    <color name="accentColor">#ff5E97f6</color>
+    <color name="disabled">#ff616161</color>
+    <color name="textColor">@android:color/white</color>
+    <color name="drawer_header_text_color">@android:color/white</color>
+    <color name="drawer_header_color">@color/primaryColor</color>
+    <color name="drawer_background_color">@color/primaryColor</color>
+    <color name="drawer_text_color">@color/textColor</color>
+    <color name="drawer_menu_icon_checked_color">@color/accentColor</color>
+    <color name="drawer_menu_icon_normal_color">@color/textColor</color>
+    <color name="drawer_menu_text_checked_color">@color/accentColor</color>
+    <color name="drawer_menu_text_normal_color">@color/textColor</color>
+    <color name="spinner_bg_color">@color/primaryColor</color>
+    <color name="spinner_txt_area_color">@color/primaryColor</color>
+    <color name="spinner_reverb_list">@color/primaryColor</color>
+    <color name="gallery_bg_color">@color/primaryColor</color>
+    <color name="disabled_gallery_text">#9b9292</color>
+    <color name="highlight_gallery_text">#475ce0</color>
+    <color name="lowlight_gallery_text">#8b96dd</color>
+    <color name="knobs_area_background">@color/primaryColor</color>
+    <color name="knob_disabled">@color/disabled</color>
+    <color name="knob_current_level">@color/accentColor</color>
+    <color name="eq_area_background">@color/primaryColor</color>
+    <color name="eq_textColor">@color/textColor</color>
+    <color name="mainBackgroundColor">@color/primaryColor</color>
+    <color name="current_out_source">#353638</color>
+    <color name="current_out_source_color">@android:color/white</color>
+    <color name="visualizer_highlight">#8b96dd</color>
+    <color name="visualizer_lowlight">@color/accentColor</color>
+    <color name="visualizer_disabled">@color/textColor</color>
+    -->
 </resources>
